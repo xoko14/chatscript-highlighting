@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "ChatScript",
+	"name": "DirectMessageScript",
 	"patterns": [
 		{
 			"include": "#keywords"
@@ -16,11 +16,11 @@
 		"keywords": {
 			"patterns": [
 				{
-					"name": "keyword.control.chatscript",
+					"name": "keyword.control.directmessagescript",
 					"match": "\\b(start|define|send)\\b"
 				},
 				{
-					"name": "keyword.operator.chatscript",
+					"name": "keyword.operator.directmessagescript",
 					"match": "\\b=\\b"
 				}
 			]
@@ -28,7 +28,7 @@
 		"storages":{
 			"patterns": [
 				{
-					"name": "storage.type.chatscript",
+					"name": "storage.type.directmessagescript",
 					"match": "\\b(sender|chat)\\b"
 				}
 			]
@@ -36,19 +36,19 @@
 		"entities":{
 			"patterns": [
 				{
-					"name": "entity.name.tag.chatscript",
+					"name": "entity.name.tag.directmessagescript",
 					"match": "\\b(title|author|version)\\b"
 				},
 				{
-					"name": "entity.name.type.chatscript",
+					"name": "entity.name.type.directmessagescript",
 					"match": "\\b(?<=(sender |send |pov |join=))[^(=|\n)]*\\b"
 				},
 				{
-					"name": "entity.name.function.chatscript",
+					"name": "entity.name.function.directmessagescript",
 					"match": "\\b(?<=chat )[^(=|\n)]*\\b"
 				}
 			]
 		}
 	},
-	"scopeName": "source.chatscript"
+	"scopeName": "source.directmessagescript"
 }

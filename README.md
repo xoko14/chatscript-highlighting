@@ -1,10 +1,10 @@
-# chatscript-highliting README
+# directmessagescript-highliting README
 
-Extension for bringing ChatScript language support for VSCode
+Extension that helps writing DirectMessageScript scripts.
 
 ## Features
 
-Highlighting for `.chats` files.
+Highlighting for `.dmsc` files.
 
 
 ## Release Notes

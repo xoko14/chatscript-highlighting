@@ -1,11 +1,11 @@
 {
-    "name": "chatscript-highlighting",
-    "displayName": "chatscript highlighting",
+    "name": "DirectMessageScript highlighting",
+    "displayName": "DirectMessageScript highlighting",
     "description": "todo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "xoko14",
     "repository": {
-        "url": "https://github.com/xoko14/chatscript-highlighting"
+        "url": "https://github.com/xoko14/directmessagescript-highlighting"
     },
     "engines": {
         "vscode": "^1.62.0"
@@ -15,15 +15,15 @@
     ],
     "contributes": {
         "languages": [{
-            "id": "chatscript",
-            "aliases": ["ChatScript", "chatscript"],
-            "extensions": [".chats"],
+            "id": "directmessagescript",
+            "aliases": ["DirectMessageScript", "directmessagescript"],
+            "extensions": [".dmsc"],
             "configuration": "./language-configuration.json"
         }],
         "grammars": [{
-            "language": "chatscript",
-            "scopeName": "source.chatscript",
-            "path": "./syntaxes/chatscript.tmLanguage.json"
+            "language": "directmessagescript",
+            "scopeName": "source.directmessagescript",
+            "path": "./syntaxes/directmessagescript.tmLanguage.json"
         }]
     }
 }
