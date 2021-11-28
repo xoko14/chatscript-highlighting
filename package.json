@@ -1,0 +1,29 @@
+{
+    "name": "chatscript-highlighting",
+    "displayName": "chatscript highlighting",
+    "description": "todo",
+    "version": "1.0.0",
+    "publisher": "xoko14",
+    "repository": {
+        "url": ""
+    },
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "chatscript",
+            "aliases": ["ChatScript", "chatscript"],
+            "extensions": [".chats"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "chatscript",
+            "scopeName": "source.chatscript",
+            "path": "./syntaxes/chatscript.tmLanguage.json"
+        }]
+    }
+}
